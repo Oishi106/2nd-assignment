@@ -1,0 +1,124 @@
+/* colors */
+
+.text-primary{
+    color: #E95A08;
+}
+
+
+
+/* navbar */
+
+
+.display-flex{
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin-bottom: 115px;
+    
+}
+.nav-logo{
+    max-width: 135px;
+    /* width: 100%; */
+}
+.nav-links{
+    gap: 48px;
+    
+}
+.nav-item{
+    list-style: none;
+    /* color: #8987A1; */
+
+}
+.nav-link{
+    text-decoration: none;
+    color: #8987A1;
+}
+.home-color{
+    color: #252432;
+}
+.cart-color{
+    color: #000000;
+}
+
+/* Banner */
+.banner-display{
+    max-width: 1140px;
+}
+.banner-content{
+    max-width: 570px;
+    height: 299px;
+    padding-top: 162px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+
+}
+.banner-discription{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    
+
+}
+.banner-img{
+    max-width: 570px;
+    padding-top: 102px;
+}
+
+
+/* Plants Section */
+
+.plants{
+    max-width: 1140px;
+}
+
+.section-title{
+    font-size: 3.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+.section-discription{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-bottom: 49px;
+    justify-items: center;
+}
+
+.plants-items{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    max-width: 1140px;
+    gap: 20px;
+}
+.plant-item{
+    max-width: 270px;
+    height: 484px;
+}
+.plant-img{
+    /* margin-bottom: 30px; */
+    width: 270px;
+    height: 322px;
+}
+.plant-name{
+    font-size: 1.4rem;
+    color: #111111;
+    text-align: center;
+}
+.plant-cost{
+    
+}
+
+/* responsive */
+@media screen and (max-width:576) {
+
+    
+}
