@@ -3,7 +3,9 @@
 .text-primary{
     color: #E95A08;
 }
-
+.white{
+    color: #FFFFFF;
+}
 
 
 /* navbar */
@@ -75,6 +77,12 @@
 .plants{
     max-width: 1140px;
     height: 998px;
+    margin-bottom: 240px;
+}
+
+.section{
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .section-title{
@@ -131,6 +139,140 @@
     margin-bottom: 30px;
 }
 
+/* Plants Lover Section */
+.plants-lover{
+   max-width: 1140px;
+   height: 597px; 
+   margin-bottom: 133px;
+}
+.p-lover-img{
+    max-width: 540px;
+    
+}
+.p-lover-content{
+    max-width: 540px;
+    height: 521px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-left: 60px;
+
+}
+.p-lover-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.p-lover-discription{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+/* .trusted-badge{
+    width: 286px;
+    height: 286px;
+    /* margin-left: 347px;
+    margin-right: 507px; */
+    /* margin-bottom: -438px;
+} */
+
+.deals-title{
+    max-width: 1440px;
+    font-size: 3.125rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+.deals-discription{
+    max-width: 840px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 276px;
+    margin-right: 276px;
+    margin-bottom: 120px;
+    
+
+}
+  
+.deals-img-set{
+    justify-content: space-between;
+    max-width: 1140px;
+    max-height: 400px;
+    margin-top: 100px;
+    
+}
+.deals-ana-bloom{
+    
+    gap: 25px;
+    
+}
+.deals-ana{
+    background: url(../assets/deal-ana.png);
+    margin-top: 20px;
+    height: 180px;
+    width: 340px;
+    
+    
+
+}
+.deals-ana-bloom-discription{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 20px;
+    text-align: center;
+}
+.buy-flower{
+    font-size: 1rem;
+}
+.deals-bloom{
+    background: url(../assets/deal-bloom.png);
+   
+    height: 180px;
+    width: 340px;
+
+}
+
+.deals-zabo{
+    background: url(../assets/deal-zabo.png);
+  
+    
+    border-radius: 22px;
+    width: 740px;
+    height: 380px;
+    display: grid;
+    align-items: center;
+    
+
+    
+}
+.deals-zabo-discription{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    
+   
+}
+.buy-flower-zabo-plant{
+    font-size: 1.75rem;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 5px;
+    
+    
+    
+}
+
+
+/* Join Section */
+.join{
+    width:1440px ;
+    height: 530px;
+    margin-top: 120px;
+    background: url(../assets/news-letter-bg.png); 
+} 
 
 /* responsive */
 @media screen and (max-width:576) {
